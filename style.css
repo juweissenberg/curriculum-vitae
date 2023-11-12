@@ -1,5 +1,6 @@
 :root {
-    --bg-primary: rgb(230, 229, 224);
+    --bg-primary: white;
+    --bg-secondary: rgb(230, 229, 224);
     --text-primary: black;
     --text-secondary: rgb(113, 104, 104);
     --text-highlight: rgb(68, 52, 134);
@@ -11,7 +12,7 @@
 
 body {
     background-color: var(--bg-primary);
-    margin: 4rem;
+    margin: 3rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -27,6 +28,7 @@ a {
 .title {
     color: rgb(48, 100, 124);
     text-align: center;
+    font-weight: bold;
 }
 
 .spacer {
