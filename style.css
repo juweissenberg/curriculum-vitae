@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--bg-primary);
-    margin: 3rem;
+    margin: 1rem 2rem 2rem 2rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -54,6 +54,8 @@ a:hover {
 .spacer {
     height: 1px;
     background-color: var(--line);
+    margin-top: -0.2rem;
+    margin-bottom: -0.2rem;
 }
 
 .soft {
