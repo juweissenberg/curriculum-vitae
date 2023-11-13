@@ -11,18 +11,18 @@
     --title: rgb(48, 100, 124);
 }
 
-body {
-    background-color: var(--bg-primary);
-    margin: 1rem 2rem 2rem 2rem;
+html {
     font-family: 'Courier New', Courier, monospace;
+    background-color: var(--bg-primary);
+}
+
+body {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
     font-weight: normal;
-}
-
-.no-margin {
-    margin: 0
 }
 
 a {
@@ -41,10 +41,24 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .subtitle {
     color: var(--title);
     text-align: center;
     margin-top: 0 !important;
+}
+
+.main {
+    margin: 1rem 2rem 2rem 2rem;
+    max-width: 60rem;
+    box-shadow: black 50px;
+}
+
+.no-margin {
+    margin: 0
 }
 
 .space-under {
