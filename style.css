@@ -59,10 +59,20 @@ a:hover {
 }
 
 .main {
+    position: relative;
     margin: 1rem;
     padding: 1rem 2rem 2rem 2rem;
     max-width: 60rem;
     box-shadow: 5px 5px 30px 15px lightgray;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .no-margin {
